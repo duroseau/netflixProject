@@ -1,7 +1,7 @@
-* {
+.hub {
     
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex;
+    justify-content: scroll;
     margin:0;
     padding:0;
 }
@@ -15,7 +15,7 @@
 
 
 .banner_img {
-   width: 100%; 
+   width: 40%; 
    height: 40%;
    mask-image: linear-gradient(to bottom,rgb white, black);
    margin-top:0px;
@@ -36,17 +36,20 @@
     display: flex; 
     align-items: normal;
     justify-content: space-around;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     padding: 10px;
-    word-wrap: break-word;
-    word-break: break-all;
  }
  #but {
      cursor:crosshair;
      justify-content: center; 
-     font-size: 1rem;
-     text-align: inherit;
+     font-size: 20px;
+     text-align: match-parent;
      border: 1px solid white;
      outline: none;
-     background-color:rgba(255, 255, 255, .75);
+     background-color:rgba(80, 23, 23, 0.75);
  }
+
+ /* #search {
+     padding:8cm;
+     margin: 12cm;
+ } */
